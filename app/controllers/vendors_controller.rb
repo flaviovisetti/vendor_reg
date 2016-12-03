@@ -19,6 +19,20 @@ class VendorsController < ApplicationController
     @vendor = Vendor.find(params[:id])
   end
 
+  def edit
+    @vendor = Vendor.find(params[:id])
+  end
+
+  def update
+    @vendor = Vendor.find(params[:id])
+    if @vendor.update(set_params)
+      redirect_to @vendor
+    else
+      flash.now[:alert] = 'Não é possível atualizar fornecedor'
+      render :edit
+    end
+  end
+
   private
 
   def set_params

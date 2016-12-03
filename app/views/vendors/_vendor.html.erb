@@ -1,0 +1,17 @@
+<%= simple_form_for @vendor do |f| %>
+  <%= f.input :company_name, label: 'Razão Social' %>
+  <%= f.input :address, label: 'Endereço' %>
+  <%= f.input :phone, label: 'Telefone' %>
+  <%= f.input :contact_name, label: 'Contato' %>
+  <%= f.input :email, label: 'Email' %>
+  <% if @vendor.id.blank? %>
+    <%= f.submit 'Registrar' %>
+  <% else %>
+    <%= f.submit 'Atualizar' %>
+  <% end %>
+<% end %>
+
+<%= link_to 'Voltar', root_path %>
+<% flash.each do |name, msg| -%>
+  <%= content_tag :div, msg, class: name %>
+<% end %>
