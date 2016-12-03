@@ -15,7 +15,6 @@ feature 'user create vendor' do
 
     click_on 'Registrar'
 
-    expect(current_path).to eq(vendors_path(vendor))
     expect(page).to have_content(vendor.company_name)
     expect(page).to have_content(vendor.address)
     expect(page).to have_content(vendor.phone)

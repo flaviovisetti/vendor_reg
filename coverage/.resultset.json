@@ -31,6 +31,22 @@
         null,
         null,
         1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
         null
       ],
       "/home/fvisetti/Documentos/SysRails/wc_vendors/app/mailers/application_mailer.rb": [
@@ -56,6 +72,6 @@
         0
       ]
     },
-    "timestamp": 1480776009
+    "timestamp": 1480778143
   }
 }
