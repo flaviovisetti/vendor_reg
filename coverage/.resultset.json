@@ -1,16 +1,24 @@
 {
   "RSpec": {
     "coverage": {
+      "/home/fvisetti/Documentos/SysRails/wc_vendors/app/models/user.rb": [
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/home/fvisetti/Documentos/SysRails/wc_vendors/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
       "/home/fvisetti/Documentos/SysRails/wc_vendors/app/helpers/application_helper.rb": [
         1,
         null
       ],
       "/home/fvisetti/Documentos/SysRails/wc_vendors/app/models/vendor.rb": [
-        1,
-        null
-      ],
-      "/home/fvisetti/Documentos/SysRails/wc_vendors/app/models/application_record.rb": [
-        1,
         1,
         null
       ],
@@ -24,31 +32,6 @@
         1,
         null
       ],
-      "/home/fvisetti/Documentos/SysRails/wc_vendors/app/controllers/vendors_controller.rb": [
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
       "/home/fvisetti/Documentos/SysRails/wc_vendors/app/mailers/application_mailer.rb": [
         0,
         0,
@@ -56,6 +39,31 @@
         0
       ],
       "/home/fvisetti/Documentos/SysRails/wc_vendors/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/home/fvisetti/Documentos/SysRails/wc_vendors/app/controllers/vendors_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0
       ],
@@ -72,6 +80,6 @@
         0
       ]
     },
-    "timestamp": 1480778143
+    "timestamp": 1480796275
   }
 }

@@ -1,2 +1,9 @@
 <h1>Welcome</h1>
-<%= link_to 'Novo Fornecedor', new_vendor_path %>
+<% if user_signed_in? %>
+  <p>
+    <strong>Bem vindo <%= current_user.email %></strong>
+    <%= link_to 'Novo Fornecedor', new_vendor_path %>
+  </p>
+<% else %>
+  <%= link_to 'Entrar', new_user_session_path %>
+<% end %>
