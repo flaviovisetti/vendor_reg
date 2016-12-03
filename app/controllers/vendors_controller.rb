@@ -1,13 +1,18 @@
 class VendorsController < ApplicationController
+  before_action :authenticate_user!, only: [:new]
+
   def new
     @vendor = Vendor.new
   end
 
   def create
     @vendor = Vendor.new(set_params)
-    @vendor.save
-
-    redirect_to @vendor
+    if @vendor.save
+      redirect_to @vendor
+    else
+      flash.now[:alert] = 'Não é possível cadastrar fornecedor'
+      render :new
+    end
   end
 
   def show

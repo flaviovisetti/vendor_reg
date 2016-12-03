@@ -6,3 +6,7 @@
   <%= f.input :email, label: 'Email' %>
   <%= f.submit 'Registrar' %>
 <% end %>
+
+<% flash.each do |name, msg| -%>
+  <%= content_tag :div, msg, class: name %>
+<% end %>

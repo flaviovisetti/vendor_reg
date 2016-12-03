@@ -20,6 +20,11 @@
       ],
       "/home/fvisetti/Documentos/SysRails/wc_vendors/app/models/vendor.rb": [
         1,
+        1,
+        1,
+        1,
+        1,
+        1,
         null
       ],
       "/home/fvisetti/Documentos/SysRails/wc_vendors/app/controllers/home_controller.rb": [
@@ -32,6 +37,36 @@
         1,
         null
       ],
+      "/home/fvisetti/Documentos/SysRails/wc_vendors/app/controllers/vendors_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        2,
+        2,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        null
+      ],
       "/home/fvisetti/Documentos/SysRails/wc_vendors/app/mailers/application_mailer.rb": [
         0,
         0,
@@ -39,31 +74,6 @@
         0
       ],
       "/home/fvisetti/Documentos/SysRails/wc_vendors/app/jobs/application_job.rb": [
-        0,
-        0
-      ],
-      "/home/fvisetti/Documentos/SysRails/wc_vendors/app/controllers/vendors_controller.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
         0,
         0
       ],
@@ -80,6 +90,6 @@
         0
       ]
     },
-    "timestamp": 1480796275
+    "timestamp": 1480797646
   }
 }
